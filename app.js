@@ -6,7 +6,7 @@ const generatePokemonPromises = () => Array(150).fill().map((el, index) =>
 
 const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types }) => {
 
-    const [typeName = '', otherTypeName = ''] = types.map(typeInfo => typeInfo.type.name);
+    const [typeName = '', otherTypeName = ''] = types.map(({type}) => type.name);
 
     return (accumulator += `
       <li class="card ${typeName}">
@@ -16,7 +16,7 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
           src="https://pokeres.bastionbot.org/images/pokemon/${id}.png"
         >
         <h2 class="card-title">${id}. ${name}</h2>
-        <p class="card-subtitle">${typeName} | ${otherTypeName}</p>
+        <p class="card-subtitle">${typeName} ${otherTypeName ? '|' : ''} ${otherTypeName}</p>
       </li>
     `);
 
