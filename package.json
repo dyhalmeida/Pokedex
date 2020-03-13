@@ -1,0 +1,15 @@
+{
+  "name": "pokedex-js",
+  "version": "1.0.0",
+  "description": "List of 150 Pokemon cards make with JS",
+  "main": "app.js",
+  "scripts": {
+    "build": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "Diego Almeida <dyhalmeida@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
