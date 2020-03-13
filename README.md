@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-[Pokedex](https://dyhalmeida.github.io/Pokedex/)
+<a href="https://dyhalmeida.github.io/Pokedex">Pokedex</a>
 </h1>
 
-<p align="center">Pokedex construído para praticar javascript puro</p>
+<p align="center"><a href="https://dyhalmeida.github.io/Pokedex">Pokedex</a> construído para praticar javascript puro</p>
 
 ![](https://github.com/dyhalmeida/FlexBlog/blob/master/gif/pokedex.gif)
 
